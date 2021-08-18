@@ -1,0 +1,29 @@
+format: jb-book
+root: mathematiques
+
+chapters:
+  - file: notebook/bases
+    sections:
+    - file: notebook/equations
+    - file: notebook/fonctions
+    - file: notebook/trigonometrie
+    - file: notebook/complexes
+    - file: notebook/td_math_1
+      sections:
+      - file: notebook/td_bases
+      - file: notebook/td_litteral
+      - file: notebook/td_appro
+  - file: notebook/calcdiff
+  - file: notebook/eq_diff
+    sections:
+    - file: notebook/canonique
+    - file: notebook/td_ed
+  - file: notebook/dl
+  - file: notebook/geometrie
+    sections:
+    - file: notebook/geom_gene
+    - file: notebook/geom_plan
+    - file: notebook/geom_espace
+    - file: notebook/geom_derivation
+    - file: notebook/geom_champs
+    - file: notebook/td_geom
