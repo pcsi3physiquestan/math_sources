@@ -97,7 +97,7 @@ Déterminer dans l'intervalle $]-\pi;\pi]$ les solutions des équations suivante
 
 ````{admonition} Exercice 
 :class: attention
-On considère un angle $\theta$ qui vérifie les équations suivantes: $\cos \theta < 0$ et $\tan \theta = k$ avec k > 0.
+On considère un angle $\theta$ qui vérifie les équations suivantes: $\cos \theta < 0$ et $\tan \theta = k$ avec k < 0.
 
 1. Déterminer le quadran dans lequel se trouve l'angle $\theta$
 2. Déterminer une expression de l'angle $\theta$
@@ -105,6 +105,6 @@ On considère un angle $\theta$ qui vérifie les équations suivantes: $\cos \th
 
 ````{dropdown} Correction
 1. Les signes des fonctions trigonométriques permettent de déterminer le quadran dans lequel se trouve l'angle. Ici le cosinus et négatif donc $\theta \in ]-\pi;\pi/2[ \cup ]\pi/2;\pi[$. La tangente est négative donc $\theta \in ]-\pi/2;0[ \cup ]\pi/2;\pi[$. La conjonction des deux équations donne $]\pi/2;\pi[$.
-2. Nous sommes dans une zone hors de l'intervalle image de arctan. La solution n'est donc pas arctan k mais $\boxed{\pi - \arctan k}$
+2. Nous sommes dans une zone hors de l'intervalle image de arctan. La solution n'est donc pas arctan k mais $\boxed{\arctan k + \pi}$
 ````
 
