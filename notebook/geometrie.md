@@ -16,7 +16,7 @@ kernelspec:
 # Géométrie vectorielle
 
 ````{admonition} Objectifs
-:class: hint
+:class: tip
 * Exprimer les coordonnées d'un vecteur dans une base orthonormée d'un espace de dimension inférieure ou égale à 3.
 * Interpréter géométriquement le produit scalaire et connaître son expression en fonction des coordonnées dans une base orthonormée.
 * Utiliser la bilinéarité et le caractère symétrique du produit scalaire.

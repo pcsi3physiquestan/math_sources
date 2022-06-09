@@ -38,8 +38,7 @@ Au contraire des mathématiques, __on conservera la notation fléchée__ pour d�
 ````
 
 
-````{admonition} Combinaison linéaire
-:class: important
+````{important} Combinaison linéaire
 Une combinaison linéaire est une somme vectorielle qui peut s'écrire $\overrightarrow{v} = \sum\limits_{i} \lambda_i \overrightarrow{u_i}$.
 ````
 
@@ -86,8 +85,7 @@ Un produit scalaire (noté $\cdot$) de E est une forme bilinéaire définie posi
 * Elle est définie si (Si $\overrightarrow{u} \cdot \overrightarrow{u} = 0$ alors $\overrightarrow{u} = \overrightarrow{0}$)
 
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 Le produit scalaire est à valeur dans K (pour nous dans $\mathbb{R}$), c'est-à-dire qu'__il renvoie un scalaire et non un vecteur__.
 ````
 

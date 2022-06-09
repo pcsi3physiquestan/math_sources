@@ -16,7 +16,7 @@ kernelspec:
 
 # Equations différentielles
 ````{admonition} Objectifs
-:class: hint
+:class: tip
 * Identifier l'ordre d'une équation différentielle
 * Résoudre une équation différentielle du premier ordre sans second membre
 * Résoudre une équation différentielle du premier ordre avec un second membre constant
@@ -27,15 +27,13 @@ kernelspec:
 
 ## Equation différentielles linéaire et ordre
 
-````{admonition} Définition : Equation différentielle et ordre.
-:class: tip
+````{important} __Définition : Equation différentielle et ordre.__
 Une équation différentielle est une équation qui relie une fonction à ses dérivées.
 
 On appelle ordre d'une équation différentielle, le degré le plus haut de la dérivée intervenant dans l'équation différentielle. En physique, on n'apprendra à résoudre analytiquement  des équations linéaires d'ordre 1 ou 2.
 ````
 
-````{admonition} Définition : Equation différentielle linéaire
-:class: tip
+````{important} __Définition : Equation différentielle linéaire__
 Une équation différentielle est linéaire si elle peut se mettre sous la forme (y(t) est la fonction inconnue) :
 
 \begin{equation}

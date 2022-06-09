@@ -25,8 +25,7 @@ Le principe d'un développement limité consiste à remplacer le comportement d'
 
 Vous verrez les conditions d'applications en cours de mathématiques plus tard. En physique, on les supposera toujours vérifiées. On admettra ces formules en physique.
 
-````{admonition} Fondamental : Développements limités
-:class: important
+````{important} __Fondamental : Développements limités__
 
 Soit une fonction $f$ définie et $n$ fois dérivable au voisinage d'un point $x_0$. Soit un point $x$ situé dans ce voisinage, alors on a:
 
@@ -65,8 +64,7 @@ A l'ordre 1, on a: $f(x) \approx f(x_0) + f'(x_0) (x-x_0)$ on confond alors la f
 
 ## Développements limités: fonctions usuelles
 
-````{admonition} Fondamental : Développements limités usuels
-:class: important
+````{important} __Fondamental : Développements limités usuels__
 Si la fonction est inconnue, on doit utiliser la formule ci-dessus. On utilise néanmoins souvent les mêmes formules en physique, il est donc bon de connaître leur développement (qu'on peut utiliser directement). Ils s'agit de fonctions usuelles prises autour du point $x_0 = 0$.
 
 \begin{align}
@@ -79,8 +77,7 @@ Si la fonction est inconnue, on doit utiliser la formule ci-dessus. On utilise n
 \end{align}
 ````
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 Les développements limités précédents sont TOUS données autour de x=0. Si on a la même fonction mais que le développements limités est autour d'une autre valeur de x, il faut recalculer les coefficients du polynômes avec la formules précédentes (ou se débrouiller avec les méthodes proposées par la suite).
 ````
 _En physique la connaissance jusqu'à l'ordre 2 suffit._
@@ -90,8 +87,7 @@ _En physique la connaissance jusqu'à l'ordre 2 suffit._
 En physique, on utilise souvent les formules courantes données ci-dessus. Associées à la "composition" des fonctions, on peut en général s'en sortir. On peut en effet utiliser les opérations usuelles pour les développements limités. Mais certaines règles sont à respecter.
 
 
-````{admonition} Opérations sur les développements limités
-:class: important
+````{important} Opérations sur les développements limités
 Règle générale: si l'on fait un développements limités à l'ordre N, alors on ne doit garder __QUE__ les termes de degré inférieurs où égal dans les DL et __TOUS__ les termes de degré inférieurs où égal dans les DL.
 
 __Addition et soustraction:__ Il faut faire attention à une règle: si aucun ordre n'est précisé, cela signifie qu'on attend un résultat non nul. Donc si on obtient un résultat nul à l'ordre n, il faut reprendre le calcul à l'ordre n+1.
@@ -142,7 +138,6 @@ PM \approx r (1 + \cos \theta \frac{a}{r}) = r + \cos \theta a
 \end{equation}
 ````
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 Attention: On ne peut négliger un terme s'il n'y a pas de terme très grand devant lui. Par exemple, dans $\frac{r}{r+a}$ où $r\ll a$. Au dénominateur, on peut négliger r devant a mais au numérateur, on doit laisser r car il est seul (donc négligeable devant rien). On a donc: $\frac{r}{r+a} \approx \frac{r}{a}$ (c'est un développement limité à l'ordre 1, pour s'en rendre compte, il faut factoriser par a au dénominateur).
 ````

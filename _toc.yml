@@ -4,10 +4,10 @@ root: mathematiques
 chapters:
   - file: notebook/bases
     sections:
-    - file: notebook/equations
     - file: notebook/fonctions
     - file: notebook/trigonometrie
     - file: notebook/complexes
+    - file: notebook/methodes
     - file: notebook/td_math_1
       sections:
       - file: notebook/td_bases

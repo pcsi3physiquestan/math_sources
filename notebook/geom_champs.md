@@ -97,8 +97,7 @@ Par exemple, en coordonnées cartésiennes, on va passer d'un point $M(x,y,z)$ �
 * on utilise un déplacement infinitésimal dans une direction particulière. C'est en général le cas quand on suit une courbe (une trajectoire par exemple). On peut alors utiliser l'expression du déplacement élémentaire général en préciser des expressions pour les variations élémentaires.
 
 
-````{admonition} Fondamental : Déplacement infinitésimal en coordonnées cartésiennes.
-:class: important
+````{important} __Fondamental : Déplacement infinitésimal en coordonnées cartésiennes.__
 On rappelle qu'on passe d'un point $M(x,y,z)$ à un point $M'(x+dx, y+dy, z+dz)$. Il vient que le déplacement élémentaire est:
 
 \begin{equation}
@@ -207,8 +206,7 @@ On désire généraliser le concept de dérivée. Si l'on se base sur la notion 
 Ici on veut connaître la différentielle df de la fonction f en un point M pour un déplacement élémentaire $\overrightarrow{dOM}$.
 
 
-````{admonition} Définition : Gradient
-:class: tip
+````{important} __Définition : Gradient__
 
 On définit le gradient de la fonction f en en un point M comme le vecteur noté $\overrightarrow{grad}f$ tel que:
 

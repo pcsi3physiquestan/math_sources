@@ -43,8 +43,7 @@ Les coordonnées (x,y) d'un point M du plan dans le repère correspond aux compo
 Le repère ainsi défini est dit $global$ car les vectaurs de la base associée ne dépendent pas du point M considéré dont on veut exprimer les coordonnées.
 
 
-````{admonition} Attention : 
-:class: note, dropdown
+````{attention}, dropdown
 Par convention, le second vecteur ($\overrightarrow{e_y}$) est toujours orienté de telle sorte que l'angle $(\overrightarrow{e_x}, \overrightarrow{e_y})$ soit égale à $+ \frac{\pi}{2}$.
 ````
 

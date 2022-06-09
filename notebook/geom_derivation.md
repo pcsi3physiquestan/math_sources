@@ -32,8 +32,7 @@ On pourra donc écrire le vecteur dans les différents systèmes de coordonnées
 	\overrightarrow{u}(\xi) &= u_r(\xi) \overrightarrow{e_r}(\xi) + u_{\theta}(\xi) \overrightarrow{e_{\theta}}(\xi) + u_{\varphi}(\xi) \overrightarrow{e_{\varphi}}(\xi)
 \end{align*}
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 Dans la plupart des cas, la dépendance des vecteurs en $\xi$ est __implicite__. En effet, celà vient du fait que ces vecteurs dépendant implicitement des coordonnées du point M qui dépendent de $\xi$. Il est donc rare de voir le $(\xi)$ derrière ces vecteurs. Il ne faut pourtant pas oublier qu'ils varient.
 ````
 

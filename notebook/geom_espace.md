@@ -60,8 +60,7 @@ Si l'on permute deux vecteurs d'une base directe, elle devient indirecte (c'est-
 De la même manière, le symétrique d'une base directe par rapport à un plan est une base indirecte. On pourra faire le lien avec la notion de chiralité en chimie.
 ````
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 En physique, on travaillera toujours avec des __bases orthonormées directes.__
 ````
 
@@ -154,8 +153,7 @@ On définit la base __locale__ cylindrique (cf. figure précédente) associée a
 * vecteur orthoradiale: $\overrightarrow{e_{\theta}}$ tel que la base $( \overrightarrow{e_r}, \overrightarrow{e_{\theta}}, \overrightarrow{e_z})$ soit une base orthonormée directe soit: $\overrightarrow{e_{\theta}}= \overrightarrow{e_z} \wedge \overrightarrow{e_r}$
 
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 $\overrightarrow{e_{\theta}}$ pointe toujours dans le sens des $\theta$ croissants.
 
 C'est une base locale, cela veut dire que les vecteurs dépendant du points M. Autrement dit, si l'on suit un point M mobile, les vecteurs de la base varieront au cours du temps.
@@ -186,8 +184,9 @@ Soit un repère cartésien $(O, \overrightarrow{e_x}, \overrightarrow{e_y}, \ove
 :align: center
 ```
 
-````{admonition} Attention : Définition des angles
-:class: note, dropdown
+````{attention}
+__Définition des angles__
+, dropdown
 Il faut noter la différence de domaine de définition de $\theta$ et $\phi$. Elle est cruciale pour que chaque point possède un jeu de coordonnées uniques.
 ````
 

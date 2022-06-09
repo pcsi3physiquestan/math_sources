@@ -17,8 +17,7 @@ kernelspec:
 
 ## Equation d'ordre 1
 
-````{admonition} Définition : Forme canonique d'une équation d'ordre 1.
-:class: tip
+````{important} __Définition : Forme canonique d'une équation d'ordre 1.__
 Une équation d'ordre 1 peut se mettre sous la forme:
 
 \begin{align}
@@ -27,8 +26,7 @@ Une équation d'ordre 1 peut se mettre sous la forme:
 \end{align}
 ````
 
-````{admonition} Fondamental : Solution de l'équation sans second membre
-:class: important
+````{important} __Fondamental : Solution de l'équation sans second membre__
 Toutes les solutions de l'équation __homogène__, c'est-à-dire sans second membre sont de la forme:
 
 \begin{equation}
@@ -36,15 +34,15 @@ y(t) = A e^{-\frac{t}{\tau}}
 \end{equation}
 ````
 
-````{admonition} Attention : Traitement du second membre
-:class: note
+````{attention}
+__Traitement du second membre__
+
 Attention, s'il y a un second membre il faut aussi le traiter. Nous verrons la méthode générale par la suite.
 ````
 
 ## Equation d'ordre 2
 
-````{admonition} Définition : Forme canonique d'une équation d'ordre 2.
-:class: tip
+````{important} __Définition : Forme canonique d'une équation d'ordre 2.__
 Une équation d'ordre 2 peut se mettre sous la forme:
 
 \begin{align}
@@ -62,8 +60,7 @@ On mettra en général l'équation sous la forme canonique:
 On donnera des interprétations aux grandeurs $\omega_0, \xi$ et Q dans le cours d'électrocinétique.
 ````
 
-````{admonition} Fondamental : Equation caractéristique
-:class: important
+````{important} __Fondamental : Equation caractéristique__
 La détermination de la solution générale passe par la résolution de l'équation caractéristique:
 
 \begin{equation}
@@ -77,8 +74,7 @@ r_{1,2} = \frac{-b \pm \sqrt{\Delta}}{2a} \textrm{ avec } \Delta = b^2 - 4ac
 \end{equation}
 ````
 
-````{admonition} Fondamental : Solution de l'équation sans second membre
-:class: important
+````{important} __Fondamental : Solution de l'équation sans second membre__
 Les solutions de l'équation __homogène__, c'est-à-dire sans second membre ont une forme différente suivant la nature des solutions de l'équation caractéristique.
 
 * Cas 1: $\Delta > 0$, les racines $r_{1,2}$ sont réelles. La solution générale de l'équation homogène s'écrit:
@@ -100,8 +96,9 @@ f_1(t) = (A \cos \Omega t + B \sin \Omega t) e^{\lambda t} =C \cos(\Omega t + \p
 \end{equation}
 ````
 
-````{admonition} Attention : Traitement du second membre
-:class: note
+````{attention}
+__Traitement du second membre__
+
 Attention, s'il y a un second membre il faut aussi le traiter. Nous verrons la méthode générale par la suite.
 ````
 
@@ -109,8 +106,7 @@ Attention, s'il y a un second membre il faut aussi le traiter. Nous verrons la m
 
 ## Méthode de résolution
 
-````{admonition} Méthode de résolution
-:class: important
+````{important} Méthode de résolution
 Pour résoudre une équation différentielle, il faut suivre __scrupuleusement l'ordre de résolution__ suivant:
 * Mettre en équation le problème et mettre l'équation sous forme canonique en reconnaissant l'ordre de l'équation.
 * Déterminer la solution générale (notée ici $f_1(t)$) de l'équation homogène (ESSM) soit directement (ordre 1), soit par analyse du discriminant de l'équation différentielle. __Ne pas chercher à déterminer les constantes d'intégration.__
