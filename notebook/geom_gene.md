@@ -44,9 +44,9 @@ Une combinaison linéaire est une somme vectorielle qui peut s'écrire $\overrig
 ````{topic} Famille libre
 Une famille libre (ou linéairement indépendants) de vecteurs est une ensemble de vecteurs dont aucun ne peut être écrit comme une combinaison linéaire des autres. Cela revient à imposé la condition:
 
-\begin{equation}
+$$
  \forall (a_1, a_2, ..., a_n) \in \mathbb{R}^n \left(\sum\limits_{k = 1}^{n} a_k \overrightarrow{v_k} = 0 \Longrightarrow \left(\forall k \in [\![1;n]\!] a_k = 0\right)\right)
-\end{equation}
+$$
 
 c'est-à-dire que toute combinaison linéaire nulle des vecteurs d'une famille libre implique que tous les coefficients sont nuls.
 ````
@@ -98,9 +98,9 @@ Attention à ne pas confondre norme et composante d'un vecteur.
 ````{topic} Norme euclidienne
 Soit un vecteur $\overrightarrow{u}$, on définit la norme euclidienne de $\overrightarrow{u}$ par:
 
-\begin{equation}
+$$
 \left \| \overrightarrow{u}	\right \| = \sqrt{\overrightarrow{u} \cdot \overrightarrow{u}}
-\end{equation}
+$$
 
 * En physique, on notera souvent (pas toujours) $u$ la norme du vecteur $\overrightarrow{u}$. C'est possible en physique car on rappelle que tous les vecteurs doivent être notés avec des flèches.
 * Un vecteur de norme 1 est appelé vecteur normé ou vecteur unitaire.

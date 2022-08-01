@@ -31,9 +31,9 @@ Pour résoudre une équation différentielle, il faut suivre __scrupuleusement l
 :class: attention
 Résoudre l'équation différentielle suivante:
 
-\begin{equation}
+$$
 \frac{\rm{d}f}{\rm{dt}}(t) + \frac{1}{\tau} f(t) = E
-\end{equation}
+$$
 
 avec f(0) = 0
 ````
@@ -63,9 +63,9 @@ f(t) = \tau E \left(1 -  e^{-\frac{t}{\tau}}\right)
 
 On considère l'équation suivante avec R et C positifs:
 
-\begin{equation}
+$$
 R^{2}C^{2} \frac{\rm{d^2}u}{\rm{dt^2}} + 3RC \frac{\rm{d}u}{\rm{dt}} + u = E
-\end{equation}
+$$
 
 avec u(0) = 0 et $\frac{\rm{d}u}{\rm{dt}}(0) = 0$
 ````

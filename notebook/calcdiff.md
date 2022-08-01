@@ -72,15 +72,15 @@ On peut aussi procéder par analogie comme nous le verrons en cours de mécaniqu
 ### Séparation des variables: Généralités
 On suppose qu'on doit résoudre une équation du type: $\frac{\rm{d}y}{\rm{dx}} = f(x,y)$ où f est une fonction à variables séparables, c'est-à-dire qu'on peut la mettre sous la forme $f_1(x) \times f_2(x)$
 
-\begin{equation}
+$$
 \frac{\rm{d}y}{\rm{dx}} = f_1(x) \times f_2(y)
-\end{equation}
+$$
 
 En assimilant les différentielles à des variations infinitésimales, on peut réécrire l'équation précédente en séparation la partie en x de la partie en y puis intégrer l'ensemble.
 
-\begin{equation}
+$$
 \frac{\rm{d}y}{f_2(y)} = \rm{d}x f_1(x) \Longrightarrow \int_{y(x_1)}^{y(x_2)}\frac{\rm{d}y}{f_2(y)} = \int_{x_1}^{x_2} f_1(x) \rm{d}x
-\end{equation}
+$$
 
 
 ### Méthode: Séparation des variables
@@ -94,35 +94,35 @@ Résoudre l'équation $\frac{dy}{dx} = a y x^2$ avec $a \in \mathbb{R}^{+*}$ et 
 ````{dropdown} Correction
 Séparons les variables en mettant toutes les fonction en x d'un côté et toutes les fonctions en y de l'autre:
 
-\begin{equation}
+$$
 \frac{dy}{y} = ax^2dx
-\end{equation}
+$$
 
 On intègre en faisant __attention à ce que les bornes des deux intégrales soient cohérentes__. Ici, on a choisit les bornes de l'intégrale en x (0 et $x_0$), les bornes de l'intégrale en y doivent correspondre ($y(x=0)$ et $y(x=x_0)$)
 
-\begin{equation}
+$$
 \int_{y(x=0)}^{y(x=x_0)} \frac{dy}{y} = \int_{x=0}^{x=x_0}ax^2dx \Longrightarrow \ln\left(\frac{y(x_0)}{y_0}\right) = \frac{a}{3}x_0^3
-\end{equation}
+$$
 
 Il reste à isoler y(x) (on a remplacé $x_0$ par x car l'expression est vraie pour tout $x_0$):
 
-\begin{equation}
+$$
 y(x) = y_0 \exp^{\frac{a}{3}x^3}
-\end{equation}
+$$
 ````
 
 ````{dropdown} Remarque
 On peut aussi procéder par changement de variables. On commence par isoler les fonctions de y avec la dérivée y'(x) puis on intègre (suivant x):
 
-\begin{equation}
+$$
 \frac{1}{y}\frac{\rm{d}y}{\rm{dx}} = ax^2 \Longrightarrow \int_{x=0}^{x=x_0}\frac{1}{y(x)}\frac{\rm{d}y}{\rm{dx}} dx = \int_{x=0}^{x_{0}} ax^2 dx
-\end{equation}
+$$
 
 On réalise alors un changement de variables x vers u = y(x) dans la première intégrale. Les bornes deviennent $y(x=0)$ et $y(x=x_0)$ et $du = y'(x)dx= \frac{\rm{d}y}{\rm{dx}} dx$. L'intégrale devient donc:
 
-\begin{equation}
+$$
 \int_{y(x=0)}^{y(x=x_0)}\frac{1}{u}du = \int_{x=0}^{x_{0}} ax^2 dx
-\end{equation}
+$$
 
 La suite du calcul est identique au cas précédent.
 ````

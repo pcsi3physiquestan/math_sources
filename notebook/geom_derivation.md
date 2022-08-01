@@ -38,9 +38,9 @@ Dans la plupart des cas, la dépendance des vecteurs en $\xi$ est __implicite__.
 __Dérivée d'une composante.__  
 On peut dérivée une composante $u_1(\xi) \overrightarrow{e_1}(\xi)$ comme on dérive un produit. Ainsi:
 
-\begin{equation}
+$$
 \frac{\rm{d}}{\rm{d\xi}}\left(u_1(\xi) \overrightarrow{e_1}(\xi)\right) = \frac{\rm{d}u_1}{\rm{d\xi}}(\xi) \overrightarrow{e_1}(\xi) + u_1(\xi) \frac{\rm{d}\overrightarrow{e_1}}{\rm{d\xi}}(\xi)
-\end{equation}
+$$
 
 Comme on l'a dit. En pratique, les vecteurs d'une base ne dépendent explicitement que des coordonnées du point auquel ils sont associées, dans le cas d'une base locale).
 
@@ -80,9 +80,9 @@ Pour les coordonnées cartésiennes, la base étant global, elle ne dépend pas 
 
 Il vient que la dérivée dans un système de coordonnées cartésien (fixe) est:
 
-\begin{equation}
+$$
 \frac{\rm{d}\overrightarrow{u}}{\rm{d\xi}} = \frac{\rm{d}u_x}{\rm{d\xi}} \overrightarrow{e_x} +\frac{\rm{d}u_y}{\rm{d\xi}} \overrightarrow{e_y} +\frac{\rm{d}u_z}{\rm{d\xi}} \overrightarrow{e_z}
-\end{equation}
+$$
 ````
 
 ## Dérivées angulaires: Cas cylindriques

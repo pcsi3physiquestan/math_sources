@@ -26,9 +26,9 @@ On ne peut pas toujours résoudre analytiquement une équation. On peut par cont
 
 Déterminer graphiquement les conditions d'existence de solutions non nulles pour l'équation:
 
-\begin{equation}
+$$
 x = \frac{mg}{k} \sin(x)
-\end{equation}
+$$
 
 avec k, m et g strictement positifs.
 ````
@@ -47,9 +47,9 @@ On remarque que si la pente est trop pentue, la seule intersection est le point 
 
 Cette condition s'écrit:
 
-\begin{equation}
+$$
 \boxed{\frac{k}{mg} < 1}
-\end{equation}
+$$
 
 ```{dropdown} Méthode analytique
 On peut démontrer analytiquement la propriété précédente en étudier les changements de signe de $h(x) = f(x)-g(x)$ et en utilisant la continuité de $h$. Cette méthode ne sera que très peu demandée en physique.
@@ -102,9 +102,9 @@ Déterminer la dérivée de la fonction $f(x) = e^{kx^2}$
 ````{topic} Correction
 Il s'agit d'une dérivée d'une composée de fonction: on compose la fonction exponentielle $h(x) =e^x$ avec la fonction carré $g(x) = kx^2$: $f = h \circ g$. La dérivée est donc:
 
-\begin{equation}
+$$
 f'(x) = (h' \circ g)(x) \times g'(x) = e^{kx^2} \times 2kx
-\end{equation}
+$$
 ````
 
 ````{admonition} Retrouver les formules trigonométriques des inverses
@@ -127,9 +127,9 @@ La relation entre les deux expressions données ci-dessous est __fondamentale__ 
 
 Montrer que:
 
-\begin{equation}
+$$
 A \cos(x) + B \sin(x) = C \cos \left(x + \varphi\right)
-\end{equation}
+$$
 
 avec $C = \pm\sqrt{A^2 + B^2},~\tan \varphi = - \frac{B}{A}$ et $sign(\cos \varphi) = sign(\frac{A}{C})$.
 ````
@@ -184,21 +184,22 @@ __Le calcul de l'argument et du module d'un complexe est fondamental en physique
 
 Déterminer le module est l'argument du complexe suivant (x est réel positif):
 
-\begin{equation}
+$$
 z = \frac{i x}{2 + i x}
-\end{equation}
+$$
 ````
 ````{margin} __A ne pas faire...__
 Il ne sert à rien (et ça complique même) d'éliminer la partie imaginaire du dénominateur pour calculer un module ou un argument. On va utiliser les relations très utiles sur le rapport de deux complexes.
 ````
 ````{topic} Correction
-\begin{equation}
-\left\vert z \right\vert = \frac{\left\vert ix \right\vert}{\left\vert 1 +ix \right\vert} = \sqrt{\frac{x^2}{4 + x^2}}
-\end{equation}
 
-\begin{equation}
+$$
+\left\vert z \right\vert = \frac{\left\vert ix \right\vert}{\left\vert 1 +ix \right\vert} = \sqrt{\frac{x^2}{4 + x^2}}
+$$
+
+$$
 \arg z = \arg (ix) - \arg(2 + ix) = \frac{\pi}{2} - \arg(2 + ix)
-\end{equation}
+$$
 
 __Méthode à utiliser en physique__: La connaissance du signe du cosinus et de la valeur de la tangente suffit à caractériser l'angle (cf. cercle trigonométrique). On va donc calculer les deux.
 
@@ -209,9 +210,10 @@ Si le cosinus est négatif, l'argument du complexe est dans l'intervale $[\pi/2;
 Le cosinus est du même signe que la partie réelle, donc ici, il est positif  donc l'argument de 2 + ix est dans l'intervale $[-\pi/2;\pi/2]$. La solution d'une équation $\tan \theta = k$ est donc de la forme $\theta = \arctan k$.
 
 La tangente s'écrit:
-\begin{equation}
+
+$$
 \tan \left(\arg (2 + ix)\right) = \frac{\Im(2+ix)}{\Re(2+ix)} = \frac{x}{2}
-\end{equation}
+$$
 
 La solution est donc: $\arg (2+ix) = \arctan \frac{x}{2}$ donc $\arg(z) = \frac{\pi}{2} -\arctan \frac{x}{2}$
 ````

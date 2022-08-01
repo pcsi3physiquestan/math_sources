@@ -68,9 +68,9 @@ Le module de z est la longueur du vecteur$\overrightarrow{OM}$ et l'argument de 
 
 Soit un complexe z, on définit le complexe conjugué $\overline{z} $ comme le complexe possédant le même module mais un argument opposé. On peut aussi le définir comme celui ayant la même partie réelle et une partie imaginaire opposée.
 
-\begin{equation}
+$$
 z = r e^{i \theta} = a + i b \Longrightarrow \overline{z} = r e^{-i \theta} = a - i b
-\end{equation}\end{defi}
+$$\end{defi}
 ````
 
 

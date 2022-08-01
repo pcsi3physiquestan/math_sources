@@ -35,9 +35,9 @@ Le signe de la dérivée donne la monotonie de la fonction (croissante ou décro
 
 Le nombre dérivé de la fonction f en $x = x_0$ est définie comme la limite du taux de variation de la fonction en ce point (on présuppose ici son existence):
 
-\begin{equation}
+$$
 f'(x_0) = \lim\limits_{x \to x_0} \frac{f(x) - f(x_0)}{x - x_0}= \lim\limits_{h \to 0} \frac{f(x_0 + h) - f(x_0)}{h}
-\end{equation}
+$$
 
 La (fonction) dérivée de f est la fonction qui associe à tout x de l’intervalle de dérivabilité le nombre dérivé de f en x.
 ````
@@ -56,9 +56,9 @@ La (fonction) dérivée de f est la fonction qui associe à tout x de l’interv
 
 Ils sont sous la forme:
 
-\begin{equation}
+$$
 \sum\limits_{k=0}^{N}a_k x^k
-\end{equation}
+$$
 
 La puissance maximale donne le degré du polynôme.
 

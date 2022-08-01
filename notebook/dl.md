@@ -34,9 +34,9 @@ A l'ordre 1, on a: $f(x) \approx f(x_0) + f'(x_0) (x-x_0)$ on confond alors la f
 ````{important} __Développements limités__
 Soit une fonction $f$ définie et $n$ fois dérivable au voisinage d'un point $x_0$. Soit un point $x$ situé dans ce voisinage, alors on a:
 
-\begin{equation}
+$$
 f(x) = \sum\limits_{k=0}^{n} \frac{f^{(k)}(x_0)}{k !}{(x-x_0)}^k + \epsilon(x) {(x-x_0)}^n
-\end{equation}
+$$
 
 où $f^{(k)}$ désigne la k-ième dérivée de la fonction f et $\epsilon(x)$ est une fonction tendant vers 0 quand x tend vers $x_0$.
 ````
@@ -122,17 +122,17 @@ Attention: On ne peut négliger un terme s'il n'y a pas de terme très grand dev
 ```
 On commence par factoriser par r pour faire apparaître la grandeur $a/r \ll 1$
 
-\begin{equation}
+$$
 PM = r \sqrt{1 + 2 cos \theta\frac{a}{r} + \frac{a^2}{r^2}}
-\end{equation}
+$$
 
 * A l'ordre 0: $PM \approx r$
 * A l'ordre 1:
     * on néglige sous la racine le terme d'ordre 2: $PM \approx r \sqrt{1 + 2 cos \theta \frac{a}{r}}$
     * puis on utilise le DL de $\sqrt{1+x}$ autour de 0 avec $x = 2 cos \theta \frac{a}{r}$:
 
-\begin{equation}
+$$
 PM \approx r (1 + \cos \theta \frac{a}{r}) = r + \cos \theta a
-\end{equation}
+$$
 ````
 

@@ -41,8 +41,8 @@ f(t) peut être une fonction quelconque. n est l'ordre de l'équation.
 ```
 Une équation différentielle est linéaire si elle peut se mettre sous la forme (y(t) est la fonction inconnue) :
 
-\begin{equation}
+$$
 a_n \frac{\rm{d^n}y}{\rm{dt^n}} (t) + a_{n-1 } \frac{\rm{d^{n-1}}y}{\rm{dt^{n-1}}}(t)  + ... +  a_{1 } \frac{\rm{d^{1}}y}{\rm{dt^{1}}} (t) + a_0 y(t) = f(t)
-\end{equation}
+$$
 
 ````

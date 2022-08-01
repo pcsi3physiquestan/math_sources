@@ -97,9 +97,9 @@ On ne précise pas ici comment M' tend vers M (en ligne droite, en ligne courbe,
 ````{important} __Déplacement infinitésimal en coordonnées cartésiennes.__
 On rappelle qu'on passe d'un point $M(x,y,z)$ à un point $M'(x+dx, y+dy, z+dz)$. Il vient que le déplacement élémentaire est:
 
-\begin{equation}
+$$
 \overrightarrow{dOM} = dx \overrightarrow{e_x} + dy \overrightarrow{e_y} + dz \overrightarrow{e_z}
-\end{equation}
+$$
 
 En effet, on observe sur le schéma suivant que l'on peut décomposer le vecteur en une somme de trois vecteurs dans chaque direction Ox, Oy et Oz de distance respectives dx, dy et dz.
 
@@ -111,9 +111,10 @@ En effet, on observe sur le schéma suivant que l'on peut décomposer le vecteur
 
 ````{important} __Déplacement infinitésimal en coordonnées cartésiennes.__ 
 Le déplacement élémentaire en coordonnées cylindriques s'écrit:
-\begin{equation}
+
+$$
 \overrightarrow{dOM} = dr \overrightarrow{e_r} + r d \theta \overrightarrow{e_{\theta}} + dz \overrightarrow{e_z}
-\end{equation}
+$$
 _La démonstration est en ligne._
 ````
 ````{topic} Démonstration
@@ -130,16 +131,17 @@ Les successifs sont déplacements sont $r d\theta \overrightarrow{e_{\theta}}, d
 
 Il vient un déplacement élémentaire:
 
-\begin{equation}
+$$
 \overrightarrow{dOM} = dr \overrightarrow{e_r} + r d \theta \overrightarrow{e_{\theta}} + dz \overrightarrow{e_z}
-\end{equation}
+$$
 ````
 
 ````{important} __Déplacement infinitésimal en coordonnées sphériques.__ 
 Le déplacement élémentaire en coordonnées sphériques s'écrit:
-\begin{equation}
+
+$$
 \overrightarrow{dOM} = dr \overrightarrow{e_r} + r d \theta \overrightarrow{e_{\theta}} + r \sin \theta d\varphi \overrightarrow{e_{\varphi}}
-\end{equation}
+$$
 _La démonstration est en ligne._
 ````
 
@@ -157,9 +159,9 @@ Les successifs sont déplacements sont $r d\theta \overrightarrow{e_{\theta}}, r
 
 Il vient un déplacement élémentaire:
 
-\begin{equation}
+$$
 \overrightarrow{dOM} = dr \overrightarrow{e_r} + r d \theta \overrightarrow{e_{\theta}} + r \sin \theta d\varphi \overrightarrow{e_{\varphi}}
-\end{equation}
+$$
 ````
 
 ### Différentielle
@@ -173,9 +175,9 @@ La différentielle df du champ scalaire f autour du point M est la variation inf
 __Expression générale de la différentielle. (Admis)__  
 La différentielle du champ f en un point M de coordonnées $(\xi,\zeta,\eta)$ est:
 
-\begin{equation}
+$$
 df = \frac{\partial f}{\partial \xi} d\xi + \frac{\partial f}{\partial \zeta} d\zeta + \frac{\partial f}{\partial \eta} d\eta
-\end{equation}
+$$
 où $(\xi,\zeta,\eta)$ représentent les 3 coordonnées du point M dans un système de coordonnées.
 
 ## Gradient
@@ -195,9 +197,9 @@ Comme nous allons le voir, il existe des expressions du gradient en fonctions de
 ````{important} __Gradient__
 On définit le gradient de la fonction f en en un point M comme le vecteur noté $\overrightarrow{grad}f$ tel que:
 
-\begin{equation}
+$$
 df = \overrightarrow{grad}f \cdot \overrightarrow{dOM}
-\end{equation}
+$$
 
 où df est la variation infinitésimale de f à partir du point M en suivant le déplacement élémentaire $\overrightarrow{dOM}$.
 ````
@@ -209,9 +211,9 @@ Avant d'établir les expressions du gradient dans chaque système de coordonnée
 ````{important} __Intégration du gradient__
 A l'image de la dérivée, on peut "intégrer" le gradient pour trouver une variation de la fonction f:
 
-\begin{equation}
+$$
 \Delta f = f(B) -f(A) = \int_{\Gamma(A \to B)} \overrightarrow{grad}f \cdot \overrightarrow{dl}
-\end{equation}
+$$
 ````
 
 L'intégrale proposée ici est appelée "intégrale de chemin" car on va intégrer le produit scalaire $\overrightarrow{grad}f \cdot \overrightarrow{dl}$ sur un chemin allant de A vers B. Dans ce cas, le déplacement élémentaire doit être tangent au chemin, ce qui conditionne a priori son expression (les déplacements élémentaires sont dépendants les uns des autres). Le calcul d'une intégrale de chemin sera explicitée en cours de physique (pour des calculs de travail d'une force).
