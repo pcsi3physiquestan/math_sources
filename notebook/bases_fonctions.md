@@ -151,9 +151,7 @@ Les transformations d'une fonction usuelle (ou pas) suivant l'axe vertical corre
 ````{important} __Translation verticale__
 Considérons une fonction $f$ et une fonction $g(x) = x+a$. La composition $h(x)=g \circ f(x)$ correspond graphiquement à la translation verticale de la représentation graphique de $f$ de $+a$.
 ````
-````{admonition} Exemple : Translation verticale
-:class: note
-
+````{topic} Exemple : Translation verticale
 Soit la fonction $f(x) = xln(x)$. La fonction $h(x)=x\ln x - 2$ est possède la même représentation graphique mais "décalée" de 2 unités vers le bas.
 
 ```{figure} ./images/mathematiques_translation_verticale.jpg
@@ -166,8 +164,7 @@ Soit la fonction $f(x) = xln(x)$. La fonction $h(x)=x\ln x - 2$ est possède la 
 
 Considérons une fonction $f$ et une fonction $g(x)=kx$ avec $k>0$. La composition $h(x)=g\circ f(x)$ correspond graphiquement à la dilatation de la courbe verticale d'un facteur $k$.
 ````
-````{admonition} Exemple : Dilatation verticale
-:class: note
+````{topic} Exemple : Dilatation verticale
 Soit la fonction $f(x) = \sqrt{4-x^2}$ définie sur $[-2;2]$. La fonction $h(x) = 4 \sqrt{4-x^2}$ possède la même représentation graphique mais dilatée d'un facteur $4$ verticalement (d'un cercle on passe à une ellipse étirée vers le haut
 
 ```{figure} ./images/mathematiques_dilatation_verticale.jpg
@@ -194,8 +191,7 @@ La translation horizontale apparaît souvent en physique dans des phénomènes r
 Considérons une fonction $f$ et une fonction $g(x) = x-a$. La composition $h(x)=f \circ g(x)$ correspond graphiquement à la translation horizontale de la représentation graphique de $f$ de $+a$.
 ````
 
-````{admonition} Exemple : Translation horizontale
-:class: note
+````{topic} Exemple : Translation horizontale
 Soit la fonction $f(x) = xln(x)$. La fonction $h(x)=(x-2)\ln(x-2)$  possède la même représentation graphique mais "décalée" de 2 unités vers la droite.
 
 ```{figure} ./images/mathematiques_translation_horizontale.jpg
@@ -216,8 +212,7 @@ On verra de la même manière des exemples de dilatation dans l'espace.
 Considérons une fonction $f$ et une fonction $g(x)=kx$ avec $k>0$. La composition $h(x)=f\circ g(x)$ correspond graphiquement à la dilatation de la courbe horizontale d'un facteur $1/k$ (donc contraction de facteur $k$).
 ````
 
-````{admonition} Exemple : Dilatation horizontale
-:class: note
+````{topic} Exemple : Dilatation horizontale
 Soit la fonction $f(x) = \sqrt{4-x^2}$ définie sur $[-2;2]$. La fonction $h(x) = \sqrt{4-{(2x)}^2}$ possède la même représentation graphique mais dilatée d'un facteur $1/2$ horizontalement (d'un cercle on passe à une ellipse contractée horizontalement.
 
 ```{figure} ./images/mathematiques_dilatation_horizontale.jpg

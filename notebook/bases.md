@@ -15,7 +15,7 @@ kernelspec:
 ---
 
 # Bases de mathématiques pour la physique
-````{admonition} Objectifs
+````{admonition} Compétences
 :class: tip
 * Résoudre analytiquement ou graphiquement une équation simple.
 * Résoudre un système d'équations

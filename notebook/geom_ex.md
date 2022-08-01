@@ -13,7 +13,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# TD Géométrie vectorielle
+# Applcations : Géométrie vectorielle
 
 ## Théorème d'Al Kashi
 

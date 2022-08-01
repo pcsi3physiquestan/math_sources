@@ -15,7 +15,7 @@ kernelspec:
 ---
 # Calcul différentiel
 
-````{admonition} Objectifs
+````{admonition} Compétences
 :class: tip
 * Interpréter l'intégrale comme une somme de contributions infinitésimales, en lien avec la méthode des rectangles en mathématiques.
 * Interpréter graphiquement la notion de dérivée.

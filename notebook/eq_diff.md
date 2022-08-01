@@ -15,7 +15,7 @@ kernelspec:
 ---
 
 # Equations différentielles
-````{admonition} Objectifs
+````{admonition} Compétences
 :class: tip
 * Identifier l'ordre d'une équation différentielle
 * Résoudre une équation différentielle du premier ordre sans second membre
@@ -27,18 +27,22 @@ kernelspec:
 
 ## Equation différentielles linéaire et ordre
 
-````{important} __Définition : Equation différentielle et ordre.__
+````{admonition} __Equation différentielle et ordre.__
+:class: note
 Une équation différentielle est une équation qui relie une fonction à ses dérivées.
 
 On appelle ordre d'une équation différentielle, le degré le plus haut de la dérivée intervenant dans l'équation différentielle. En physique, on n'apprendra à résoudre analytiquement  des équations linéaires d'ordre 1 ou 2.
 ````
 
-````{important} __Définition : Equation différentielle linéaire__
-Une équation différentielle est linéaire si elle peut se mettre sous la forme (y(t) est la fonction inconnue) :
+````{important} __Equation différentielle linéaire__
+
+```{margin}
+f(t) peut être une fonction quelconque. n est l'ordre de l'équation.
+```
+Une équation différentielle est linéaire si elle peut se mettre sous la forme (y(t) est la fonction inconnue) :
 
 \begin{equation}
 a_n \frac{\rm{d^n}y}{\rm{dt^n}} (t) + a_{n-1 } \frac{\rm{d^{n-1}}y}{\rm{dt^{n-1}}}(t)  + ... +  a_{1 } \frac{\rm{d^{1}}y}{\rm{dt^{1}}} (t) + a_0 y(t) = f(t)
 \end{equation}
 
-Remarque:f(t) peut être une fonction quelconque. n est l'ordre de l'équation.
 ````

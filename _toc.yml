@@ -4,20 +4,20 @@ root: mathematiques
 chapters:
   - file: notebook/bases
     sections:
-    - file: notebook/fonctions
-    - file: notebook/trigonometrie
-    - file: notebook/complexes
-    - file: notebook/methodes
-    - file: notebook/td_math_1
+    - file: notebook/bases_fonctions
+    - file: notebook/bases_trigonometrie
+    - file: notebook/bases_complexes
+    - file: notebook/bases_ex
       sections:
-      - file: notebook/td_bases
-      - file: notebook/td_litteral
-      - file: notebook/td_appro
-  - file: notebook/calcdiff
+      - file: notebook/bases_methodes
+      - file: notebook/bases_ex_app
+      - file: notebook/bases_ex_litteral
+      - file: notebook/bases_ex_appro
   - file: notebook/eq_diff
     sections:
-    - file: notebook/canonique
-    - file: notebook/td_ed
+    - file: notebook/eq_diff_canonique
+    - file: notebook/eq_diff_methodes
+    - file: notebook/eq_diff_td
   - file: notebook/dl
   - file: notebook/geometrie
     sections:
@@ -26,4 +26,4 @@ chapters:
     - file: notebook/geom_espace
     - file: notebook/geom_derivation
     - file: notebook/geom_champs
-    - file: notebook/td_geom
+    - file: notebook/geom_ex

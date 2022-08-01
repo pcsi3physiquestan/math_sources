@@ -14,6 +14,7 @@ kernelspec:
   name: python3
 ---
 # Méthodes
+_Ces méthodes ont des corrections en ligne._
 
 ## Résolution d'équations
 

@@ -17,16 +17,21 @@ kernelspec:
 
 ## Développements limités: principe général
 
-__Approximations polynômiales__  
+````{topic} __Approximations polynomiales__  
 Le principe d'un développement limité consiste à remplacer le comportement d'une fonction $f(x)$ autour d'un point $x_0$ par un polynôme de degré $n$ dont les coefficients vont dépendre de la fonction $f$ et du point $x_0$. Cela suppose certaines régularités sur la fonction et l'écart entre le polynôme et la fonction est alors d'autant plus faible que:
 
 * on calcule la fonction en $x$ près de $x_0$
 * le degré $n$ du polynôme est plus élevé
 
 Vous verrez les conditions d'applications en cours de mathématiques plus tard. En physique, on les supposera toujours vérifiées. On admettra ces formules en physique.
+````
 
-````{important} __Fondamental : Développements limités__
+```{margin} Ordre 0 et ordre 1
+A l'ordre 0, on a simplement: $f(x) \approx f(x_0)$, cela revient à calculer la limite en $x_0$.
 
+A l'ordre 1, on a: $f(x) \approx f(x_0) + f'(x_0) (x-x_0)$ on confond alors la fonction f avec sa tangente en $x_0$. On parle de __linéarisation__.
+```
+````{important} __Développements limités__
 Soit une fonction $f$ définie et $n$ fois dérivable au voisinage d'un point $x_0$. Soit un point $x$ situé dans ce voisinage, alors on a:
 
 \begin{equation}
@@ -35,21 +40,12 @@ f(x) = \sum\limits_{k=0}^{n} \frac{f^{(k)}(x_0)}{k !}{(x-x_0)}^k + \epsilon(x) {
 
 où $f^{(k)}$ désigne la k-ième dérivée de la fonction f et $\epsilon(x)$ est une fonction tendant vers 0 quand x tend vers $x_0$.
 ````
+```{topic} Traitement du terme négligeable
+* On dit que le terme $\epsilon(x)$ est négligeable devant ${(x-x_0)^n}$ et a fortiori devant les autres termes (qui sont des puissances inférieures) quand x tend vers $x_0$. En mathématiques, on remplace le terme $\epsilon(x) {(x-x_0)}^n$ par $o({(x-x_0)}^n)$ ce qui signifie la même chose. On parle de développement limité (DL) à l'ordre n.
+* En physique, on va remplacer $f(x)$ par la somme polynomiale sans tenir compte du terme en $\epsilon(x) {(x-x_0)}^n$.  En physique, on préfèrera parler d'approximation polynomiales à l'ordre n. Néanmoins, les techniques vues en mathématiques restent utilisables en physique et le terme employé importe peu.
+```
 
-````{dropdown} Traitement du terme négligeable
-On dit que le terme $\epsilon(x)$ est négligeable devant ${(x-x_0)^n}$ et a fortiori devant les autres termes (qui sont des puissances inférieures) quand x tend vers $x_0$. En mathématiques, on remplace le terme $\epsilon(x) {(x-x_0)}^n$ par $o({(x-x_0)}^n)$ ce qui signifie la même chose. On parle de développement limité (DL) à l'ordre n.
-
-En physique, on va remplacer $f(x)$ par la somme polynomiale sans tenir compte du terme en $\epsilon(x) {(x-x_0)}^n$.  En physique, on préfèrera parler d'approximation polynomiales à l'ordre n. Néanmoins, les techniques vues en mathématiques restent utilisables en physique et le terme employé importe peu.
-````
-
-````{dropdown} Ordre 0 et ordre 1
-A l'ordre 0, on a simplement: $f(x) \approx f(x_0)$, cela revient à calculer la limite en $x_0$.
-
-A l'ordre 1, on a: $f(x) \approx f(x_0) + f'(x_0) (x-x_0)$ on confond alors la fonction f avec sa tangente en $x_0$. On parle de __linéarisation__.
-````
-
-````{admonition} Exemple : Développements limités de la fonction sinus
-:class: note
+````{topic} Exemple : Développements limités de la fonction sinus
 * Ordre 1: $\sin(x) = x + o(x)$ 
 * Ordre 3: $\sin(x) = x - \frac{x^3}{3} + o(x^3)$
 * Ordre 5: $\sin(x) = x - \frac{x^3}{3} + \frac{x^5}{120} + o(x^5)$
@@ -62,9 +58,16 @@ A l'ordre 1, on a: $f(x) \approx f(x_0) + f'(x_0) (x-x_0)$ on confond alors la f
 ```
 ````
 
-## Développements limités: fonctions usuelles
+## Fonctions usuelles
 
-````{important} __Fondamental : Développements limités usuels__
+
+```{margin}
+Les développements limités précédents sont TOUS données autour de x=0. Si on a la même fonction mais que le développements limités est autour d'une autre valeur de x, il faut recalculer les coefficients du polynômes avec la formules précédentes (ou se débrouiller avec les méthodes proposées par la suite).
+```
+```{margin}
+_En physique la connaissance jusqu'à l'ordre 2 suffit._
+```
+````{important} __Développements limités usuels__
 Si la fonction est inconnue, on doit utiliser la formule ci-dessus. On utilise néanmoins souvent les mêmes formules en physique, il est donc bon de connaître leur développement (qu'on peut utiliser directement). Ils s'agit de fonctions usuelles prises autour du point $x_0 = 0$.
 
 \begin{align}
@@ -77,14 +80,8 @@ Si la fonction est inconnue, on doit utiliser la formule ci-dessus. On utilise n
 \end{align}
 ````
 
-````{attention}
-Les développements limités précédents sont TOUS données autour de x=0. Si on a la même fonction mais que le développements limités est autour d'une autre valeur de x, il faut recalculer les coefficients du polynômes avec la formules précédentes (ou se débrouiller avec les méthodes proposées par la suite).
-````
-_En physique la connaissance jusqu'à l'ordre 2 suffit._
-
-
 ## Manipulation des développements limités
-En physique, on utilise souvent les formules courantes données ci-dessus. Associées à la "composition" des fonctions, on peut en général s'en sortir. On peut en effet utiliser les opérations usuelles pour les développements limités. Mais certaines règles sont à respecter.
+_En physique, on utilise souvent les formules courantes données ci-dessus. Associées à la "composition" des fonctions, on peut en général s'en sortir. On peut en effet utiliser les opérations usuelles pour les développements limités. Mais certaines règles sont à respecter._
 
 
 ````{important} Opérations sur les développements limités
@@ -99,7 +96,7 @@ __Composition de fonctions:__ on peut appliquer un DL usuels à une fonction sim
 __Division:__ il est possible de diviser des DL mais le principe est moins directe que la multiplication (cours de math). On utilise souvent le DL de $\frac{1}{1+x}$.
 ````
 
-````{admonition} Exemple : Compositions simples
+````{topic} Exemple : Compositions simples
 :class: note
 
 \begin{align*}
@@ -111,9 +108,7 @@ __Division:__ il est possible de diviser des DL mais le principe est moins direc
 ````
 
 ## Méthode: Approximation en physique
-On aura très rarement une variable x qui tend explicitement vers 0. Les DL sont avant tout utilisés en physique comme des approximations pour des études de comportements asymptotiques ou la simplification d'équations différentielles complexes (linéarisation => ordre 1).
-
-Une approximation revient en général à négliger un terme devant un autre, c'est-à-dire qu'on aura souvent comme condition $r \ll a$, c'est-à-dire r négligeable devant a. C'est alors la grandeur $\frac{r}{a}$ qui tend vers 0: on fera donc un DL limité de la fonction quand $r/a$ tend vers 0.
+_On aura très rarement une variable x qui tend explicitement vers 0. Les DL sont avant tout utilisés en physique comme des approximations pour des études de comportements asymptotiques ou la simplification d'équations différentielles complexes (linéarisation => ordre 1). Une approximation revient en général à négliger un terme devant un autre, c'est-à-dire qu'on aura souvent comme condition $r \ll a$, c'est-à-dire r négligeable devant a. C'est alors la grandeur $\frac{r}{a}$ qui tend vers 0: on fera donc un DL limité de la fonction quand $r/a$ tend vers 0._
 
 
 ````{admonition} Exercice 
@@ -121,7 +116,10 @@ Une approximation revient en général à négliger un terme devant un autre, c'
 On est arrivé au résultat suivant: $PM = \sqrt{r^2 + a^2 - 2ar \cos \theta}$ (PM est une longueur). On cherche à simplifier cette expression dans le cas où $r\gg a$.
 ````
 
-````{dropdown} Correction
+````{topic} Correction
+```{sidebar}
+Attention: On ne peut négliger un terme s'il n'y a pas de terme très grand devant lui. Par exemple, dans $\frac{r}{r+a}$ où $r\ll a$. Au dénominateur, on peut négliger r devant a mais au numérateur, on doit laisser r car il est seul (donc négligeable devant rien). On a donc: $\frac{r}{r+a} \approx \frac{r}{a}$ (c'est un développement limité à l'ordre 1, pour s'en rendre compte, il faut factoriser par a au dénominateur).
+```
 On commence par factoriser par r pour faire apparaître la grandeur $a/r \ll 1$
 
 \begin{equation}
@@ -138,6 +136,3 @@ PM \approx r (1 + \cos \theta \frac{a}{r}) = r + \cos \theta a
 \end{equation}
 ````
 
-````{attention}
-Attention: On ne peut négliger un terme s'il n'y a pas de terme très grand devant lui. Par exemple, dans $\frac{r}{r+a}$ où $r\ll a$. Au dénominateur, on peut négliger r devant a mais au numérateur, on doit laisser r car il est seul (donc négligeable devant rien). On a donc: $\frac{r}{r+a} \approx \frac{r}{a}$ (c'est un développement limité à l'ordre 1, pour s'en rendre compte, il faut factoriser par a au dénominateur).
-````
