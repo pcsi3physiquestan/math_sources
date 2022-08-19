@@ -135,6 +135,8 @@ Les fonctions réciproques sont arccos, arcsin et arctan. Arccos et arcsin ont u
 ````
 
 ## Transformations usuelles
+Des exemples sont en ligne.
+
 ````{topic} Introduction
 Il faut pouvoir prévoir le tracé d'une fonction en repérant qu'il s'agit d'une fonction usuelle transformée par: symétrie, homothétie (agrandissement ou rétrécissement), translation... 
 
@@ -149,6 +151,7 @@ Les transformations d'une fonction usuelle (ou pas) suivant l'axe vertical corre
 ````
 
 ````{important} __Translation verticale__
+
 Considérons une fonction $f$ et une fonction $g(x) = x+a$. La composition $h(x)=g \circ f(x)$ correspond graphiquement à la translation verticale de la représentation graphique de $f$ de $+a$.
 ````
 ````{topic} Exemple : Translation verticale
