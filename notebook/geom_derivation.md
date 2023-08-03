@@ -74,8 +74,7 @@ Le cas des coordonneés sphériques est une peu particulier car les vecteurs $\o
 D'un point de vue opératoire, une dérivée partielle se calcule en maintenant l'autre variable constante (comme si c'était un paramètre dans la fonction).
 ````
 
-````{topic} 
-__Cas des coordonnées cartésiennes.__  
+````{topic} Cas des coordonnées cartésiennes.
 Pour les coordonnées cartésiennes, la base étant global, elle ne dépend pas du point M et les vecteurs de la base ne vont donc pas dépendre de $\xi$ (sauf si le repère est mobile, mais cette configuration ne sera pas vue en première année).
 
 Il vient que la dérivée dans un système de coordonnées cartésien (fixe) est:

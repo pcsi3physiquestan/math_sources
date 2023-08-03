@@ -117,8 +117,9 @@ On est arrivé au résultat suivant: $PM = \sqrt{r^2 + a^2 - 2ar \cos \theta}$ (
 ````
 
 ````{topic} Correction
-```{sidebar}
-Attention: On ne peut négliger un terme s'il n'y a pas de terme très grand devant lui. Par exemple, dans $\frac{r}{r+a}$ où $r\ll a$. Au dénominateur, on peut négliger r devant a mais au numérateur, on doit laisser r car il est seul (donc négligeable devant rien). On a donc: $\frac{r}{r+a} \approx \frac{r}{a}$ (c'est un développement limité à l'ordre 1, pour s'en rendre compte, il faut factoriser par a au dénominateur).
+
+```{sidebar} Attention
+On ne peut négliger un terme s'il n'y a pas de terme très grand devant lui. Par exemple, dans $\frac{r}{r+a}$ où $r\ll a$. Au dénominateur, on peut négliger r devant a mais au numérateur, on doit laisser r car il est seul (donc négligeable devant rien). On a donc: $\frac{r}{r+a} \approx \frac{r}{a}$ (c'est un développement limité à l'ordre 1, pour s'en rendre compte, il faut factoriser par a au dénominateur).
 ```
 On commence par factoriser par r pour faire apparaître la grandeur $a/r \ll 1$
 

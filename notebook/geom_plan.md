@@ -38,15 +38,15 @@ _Il faut noter qu'on utilisera au maximum la bilinéarité et la projection dans
 
 
 ## Coordonnées cartésiennes
+````{margin}
+Par convention, le second vecteur ($\overrightarrow{e_y}$) est toujours orienté de telle sorte que l'angle $(\overrightarrow{e_x}, \overrightarrow{e_y})$ soit égale à $+ \frac{\pi}{2}$.
+````
 ````{important} __Coordonnées cartésiennes__  
 Dans le plan, on peut définir une base orthonormée $(\overrightarrow{e_x}; \overrightarrow{e_y})$ et lui associer un point origine O. Le triplet $(O, \overrightarrow{e_x}, \overrightarrow{e_y})$ défini un __repère__ orthonormée. On lui associe un système de coordonnée cartésien.
 
 Les coordonnées (x,y) d'un point M du plan dans le repère correspond aux composantes (scalaires) du vecteur $\overrightarrow{OM} = x \overrightarrow{e_x} + y \overrightarrow{e_y}$.
 
 Le repère ainsi défini est dit $global$ car les vectaurs de la base associée ne dépendent pas du point M considéré dont on veut exprimer les coordonnées.
-````
-````{topic}
-Par convention, le second vecteur ($\overrightarrow{e_y}$) est toujours orienté de telle sorte que l'angle $(\overrightarrow{e_x}, \overrightarrow{e_y})$ soit égale à $+ \frac{\pi}{2}$.
 ````
 
 ## Coordonnées polaires

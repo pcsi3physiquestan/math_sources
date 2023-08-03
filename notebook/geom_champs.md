@@ -25,8 +25,7 @@ Soit une fonction f qui associe à tout point de l'espace un réel (un scalaire)
 Soit une fonction f qui associe à tout point de l'espace un vecteur. On dit que f est un champ vectoriel. Par convention, on note les champs vectoriels avec une flèche comme des vecteurs.
 ````
 
-````{topic} 
-__Expression des champs__  
+````{topic} Expression des champs
 Un champ scalaire peut être vu comme une fonction de trois variables: les trois coordonnées de l'espace. Il pourra avoir différentes expressions suivant le système de coordonnée choisi.
 
 Un champ vectoriel peut être vu comme un vecteur dont les coordonnées dépendent du point M (trois fonctions scalaires). Cette vision suffit lorsqu'on est en coordonnées cartésiennes où la base est globale. Si l'on exprime le champ vectoriel dans des coordonnées cylindriques ou sphériques, il ne faut pas oublier que les vecteurs de la base vont aussi varier avecle point M.
