@@ -151,7 +151,7 @@ Il reste à passer les deux équations au carré et à sommer. En utilisant $\si
 ````
 
 ### Transformation d'une fonction cosinus ou sinus
-Au delà de l'exemple d'application des propriétés précédentes, les conclusions sur les fonctions trigonométriques sont fondamentales car elles sont très utilisées et les éléments de vocabulaires introduits seront très importants pour la suite. Une simulation donnée [ici](https://stanislas.edunao.com/mod/resource/view.php?id=12959) permet de voir l'effet des différents éléments sur le sinusoïde.
+Au delà de l'exemple d'application des propriétés précédentes, les conclusions sur les fonctions trigonométriques sont fondamentales car elles sont très utilisées et les éléments de vocabulaires introduits seront très importants pour la suite. Une simulation donnée [ici](https://moodlecpge.stanislas.fr/mod/resource/view.php?id=229) permet de voir l'effet des différents éléments sur le sinusoïde.
 
 
 ````{admonition} Exercice 
