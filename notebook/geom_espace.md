@@ -101,9 +101,9 @@ On va utiliser succissement la bilinéarité puis les expressions des produits v
 
 \begin{align*}
 	\overrightarrow{u} \wedge \underline{v} &= \left(u_x \overrightarrow{e_x} + u_y \overrightarrow{e_y}\right) \wedge \left(v_x \overrightarrow{e_x} + v_z \overrightarrow{e_z}\right)\\
-	&= u_x v_x \underbrace{\overrightarrow{e_x} \wedge \overrightarrow{e_x}}_{= 0 \textrm{(colinéaires)}} + u_x v_z \underbrace{\overrightarrow{e_x} \wedge \overrightarrow{e_z}}_{= -1} \\
-	+& u_y v_x \underbrace{\overrightarrow{e_y} \wedge \overrightarrow{e_x}}_{= -1} + u_y v_z \underbrace{\overrightarrow{e_y} \wedge \overrightarrow{e_z}}_{= 1}\\
-	&= - u_x v_z - u_y v_x + u_y v_z
+	&= u_x v_x \underbrace{\overrightarrow{e_x} \wedge \overrightarrow{e_x}}_{= 0 \textrm{(colinéaires)}} + u_x v_z \underbrace{\overrightarrow{e_x} \wedge \overrightarrow{e_z}}_{= -}\overrightarrow{e_y} \\
+	+& u_y v_x \underbrace{\overrightarrow{e_y} \wedge \overrightarrow{e_x}}_{= -\overrightarrow{e_z}} + u_y v_z \underbrace{\overrightarrow{e_y} \wedge \overrightarrow{e_z}}_{= \overrightarrow{e_x}}\\
+	&= - u_x v_z \overrightarrow{e_y}- u_y v_x \overrightarrow{e_z} + u_y v_z \overrightarrow{e_x}
 \end{align*}
 ````
 
