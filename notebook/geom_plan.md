@@ -100,7 +100,7 @@ Par projection, il vient:
 
 \begin{align*}
 	\overrightarrow{e_r} = \cos \theta \overrightarrow{e_x} + \sin \theta \overrightarrow{e_y}\\
-	\overrightarrow{e_{\theta}} = \sin \theta \overrightarrow{e_x} - \cos \theta \overrightarrow{e_y}
+	\overrightarrow{e_{\theta}} = -\sin \theta \overrightarrow{e_x} + \cos \theta \overrightarrow{e_y}
 \end{align*}
 ````
 
